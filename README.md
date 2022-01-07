@@ -40,7 +40,7 @@ You have two options to deploy the infrastructure with the provided [ARM Templat
 ### Option 1: Deploy the ARM template via the portal
 Click on the following button: 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fatrao%2Fpurview-serverless%2Fdocumentation%2Finfra%2Fazuredeploy.json) 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fatrao%2Fpurview-serverless%2Fmain%2Finfra%2Fazuredeploy.json)
 
 
 You can choose an existing ressource group in the drop-down menu or a create a new one. Click on "Review + Create". Select "Create" once the validation succeeds.
