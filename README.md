@@ -24,7 +24,7 @@ We provide:
     * App Insights instance 
     
 * An ARM Template to deploy the following architecture:
-    ![Deployed architecture](./.assets/architecture.png)
+    ![Deployed architecture](https://raw.githubusercontent.com/raliouat/purview-serverless/main/.assets/architecture.png)
 
 As you can see on the picture detailing the architecture, we use one Storage account that serves as the DataLake of the company. Purview will scan this storage account to discover assets. Additionally, the Function App requires a Storage Account to run. **In this example, we use only one storage account that will play both roles, which means the deployment of the function app writes several files on the storage and those will be the assets Purview will scan.**   
 # How to use 
@@ -40,7 +40,7 @@ You have two options to deploy the infrastructure with the provided [ARM Templat
 ### Option 1: Deploy the ARM template via the portal
 Click on the following button: 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fatrao%2Fpurview-serverless%2Fmain%2Finfra%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fraliouat%2Fpurview-serverless%2Fmain%2Finfra%2Fazuredeploy.json)
 
 
 You can choose an existing ressource group in the drop-down menu or a create a new one. Click on "Review + Create". Select "Create" once the validation succeeds.
@@ -93,7 +93,7 @@ Steps:
 4. Go on the Azure Extension tab and sign-in to your Azure account. Roll out Functions menu: the Function App appears under your subscription and the "Local Project" folder.
 
 5. On the Functions menu, click on the "Deploy the Function App" button:
-    ![Deploy a Function App via Visual Studio Code](./.assets/deploy-functionapp-vscode.png)
+    ![Deploy a Function App via Visual Studio Code](https://raw.githubusercontent.com/raliouat/purview-serverless/main/.assets/deploy-functionapp-vscode.png)
 Whem prompted, select your subscription and the remote Function app at the top of the editor.
 
 ### Option 2: Deploy with the Azure CLI
@@ -115,7 +115,7 @@ In the ARM template, we are turning on the [System Managed Identity](https://doc
 
 3. Inside Purview Studio, go to the collections:
 
-    ![Azure Purview Collections menu](./.assets/purview-collections.png)
+    ![Azure Purview Collections menu](https://raw.githubusercontent.com/raliouat/purview-serverless/main/.assets/purview-collections.png)
 
     Select the root collection, and go on the "Role assignments" tab.
     Add the Function App (using its name) in the following roles: Collection admins, Data source admins, Data curators, Data readers.
