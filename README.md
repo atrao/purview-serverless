@@ -104,8 +104,8 @@ In the ARM template, we are turning on the [System Managed Identity](https://doc
 
 1. First go on the [Azure portal](https://portal.azure.com/#home), and access the Azure Function App resource  that was deployed previously. On the left pane, select "Identity" under the "Settings" tab:
 
-    ![Identity tab of the Function App](./.assets/identity-dark.png#gh-dark-mode-only)
-    ![Identity tab of the Function App](./.assets/identity-dark.png#gh-light-mode-only)
+    ![Identity tab of the Function App](https://raw.githubusercontent.com/raliouat/purview-serverless/main/.assets/identity-dark.png#gh-dark-mode-only)
+    ![Identity tab of the Function App](https://raw.githubusercontent.com/raliouat/purview-serverless/main/.assets/identity-dark.png#gh-light-mode-only)
 
     Ensure that under "System Assigned", "Status" is toggled on.
 
